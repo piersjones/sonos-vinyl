@@ -1,6 +1,6 @@
 FROM docker.io/debian:11-slim
 
-EXPOSE 8000
+EXPOSE 7000
 
 RUN apt update && \
     apt install -y icecast2 liquidsoap && \
