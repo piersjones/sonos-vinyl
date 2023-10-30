@@ -17,7 +17,7 @@ now the container is even bigger but in exchange build in a true multiarch way
 Starting this thing is actually as easy as calling:
 
 ```
-$ docker run --name sonos_vinyl --rm -d -p 8000:8000 --device /dev/snd docker.io/deichten/sonos-vinyl:latest
+$ docker run --name sonos_vinyl --rm -d -p 7000:7000 --device /dev/snd docker.io/deichten/sonos-vinyl:latest
 ```
 
 Where the name is absolutely optional and I only added for readability. Afterwards you might open `http://<your-raspi-docker-host-address>:8000/` in your browser and start streaming the audio input. 
